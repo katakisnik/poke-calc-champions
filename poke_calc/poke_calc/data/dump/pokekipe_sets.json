@@ -1,0 +1,3670 @@
+{
+  "abomasnow": {
+    "item": "expertbelt",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 1,
+      "hp": 18,
+      "spa": 32,
+      "spd": 0,
+      "spe": 15
+    }
+  },
+  "abomasnowmega": {
+    "item": "abomasite",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "absol": {
+    "item": "lifeorb",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 4,
+      "hp": 27,
+      "spa": 0,
+      "spd": 3,
+      "spe": 0
+    }
+  },
+  "absolmega": {
+    "item": "absolite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "aegislashblade": null,
+  "aegislashboth": null,
+  "aegislashshield": null,
+  "aerodactyl": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "aerodactylmega": {
+    "item": "aerodactylite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "aggron": {
+    "item": "expertbelt",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 19,
+      "spa": 0,
+      "spd": 0,
+      "spe": 15
+    }
+  },
+  "aggronmega": {
+    "item": "aggronite",
+    "nature": "Careful",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 0,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "alakazam": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "alakazammega": {
+    "item": "alakazite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "alcremie": {
+    "item": "babiriberry",
+    "nature": "Hardy",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "altaria": {
+    "item": "habanberry",
+    "nature": "Careful",
+    "sp": {
+      "atk": 0,
+      "def": 16,
+      "hp": 32,
+      "spa": 0,
+      "spd": 15,
+      "spe": 3
+    }
+  },
+  "altariamega": {
+    "item": "altarianite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 31,
+      "spd": 0,
+      "spe": 3
+    }
+  },
+  "ampharos": {
+    "item": "lifeorb",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "ampharosmega": {
+    "item": "ampharosite",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "annihilape": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 1,
+      "hp": 0,
+      "spa": 0,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "appletun": {
+    "item": "bigroot",
+    "nature": "Calm",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 2,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "araquanid": {
+    "item": "mysticwater",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 2,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "arbok": {
+    "item": "sitrusberry",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "arcanine": {
+    "item": "sitrusberry",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 0,
+      "def": 16,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 18
+    }
+  },
+  "arcaninehisui": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "archaludon": {
+    "item": "leftovers",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 1,
+      "spd": 29,
+      "spe": 4
+    }
+  },
+  "ariados": {
+    "item": "sitrusberry",
+    "nature": "Impish",
+    "sp": {
+      "atk": 0,
+      "def": 20,
+      "hp": 32,
+      "spa": 0,
+      "spd": 14,
+      "spe": 0
+    }
+  },
+  "armarouge": {
+    "item": "focussash",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "aromatisse": {
+    "item": "sitrusberry",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 27,
+      "hp": 26,
+      "spa": 2,
+      "spd": 11,
+      "spe": 0
+    }
+  },
+  "audino": {
+    "item": "mentalherb",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "audinomega": {
+    "item": "audinite",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 17,
+      "hp": 32,
+      "spa": 0,
+      "spd": 17,
+      "spe": 0
+    }
+  },
+  "aurorus": {
+    "item": "focussash",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 27,
+      "hp": 7,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "avalugg": {
+    "item": "leftovers",
+    "nature": "Impish",
+    "sp": {
+      "atk": 2,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "avalugghisui": {
+    "item": "widelens",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 32,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "azumarill": {
+    "item": "sitrusberry",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 25,
+      "spa": 0,
+      "spd": 5,
+      "spe": 4
+    }
+  },
+  "banette": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "banettemega": {
+    "item": "banettite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 1,
+      "hp": 32,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "barbaracle": {
+    "item": "scopelens",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "barbaraclemega": {
+    "item": "barbaracite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "basculegion": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "basculegionf": {
+    "item": "lifeorb",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 19,
+      "hp": 4,
+      "spa": 20,
+      "spd": 4,
+      "spe": 19
+    }
+  },
+  "bastiodon": {
+    "item": "chopleberry",
+    "nature": "Careful",
+    "sp": {
+      "atk": 2,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "beartic": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "beedrill": {
+    "item": "focussash",
+    "nature": "Lonely",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 0,
+      "spa": 0,
+      "spd": 2,
+      "spe": 32
+    }
+  },
+  "beedrillmega": {
+    "item": "beedrillite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 30,
+      "def": 5,
+      "hp": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 31
+    }
+  },
+  "bellibolt": {
+    "item": "sitrusberry",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 11,
+      "hp": 32,
+      "spa": 7,
+      "spd": 16,
+      "spe": 0
+    }
+  },
+  "blastoise": {
+    "item": "sitrusberry",
+    "nature": "Impish",
+    "sp": {
+      "atk": 0,
+      "def": 17,
+      "hp": 32,
+      "spa": 0,
+      "spd": 17,
+      "spe": 0
+    }
+  },
+  "blastoisemega": {
+    "item": "blastoisinite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "blaziken": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "blazikenmega": {
+    "item": "blazikenite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "camerupt": {
+    "item": "choicescarf",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "cameruptmega": {
+    "item": "cameruptite",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "castform": {
+    "item": "lifeorb",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "castformrainy": null,
+  "castformsnowy": null,
+  "castformsunny": null,
+  "ceruledge": {
+    "item": "colburberry",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 25,
+      "def": 10,
+      "hp": 31,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "chandelure": {
+    "item": "focussash",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 1,
+      "hp": 32,
+      "spa": 32,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "chandeluremega": {
+    "item": "chandelurite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "charizard": {
+    "item": "choicescarf",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 0,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "charizardmegax": {
+    "item": "charizarditex",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 1,
+      "hp": 10,
+      "spa": 0,
+      "spd": 1,
+      "spe": 22
+    }
+  },
+  "charizardmegay": {
+    "item": "charizarditey",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 30,
+      "hp": 30,
+      "spa": 1,
+      "spd": 0,
+      "spe": 5
+    }
+  },
+  "chesnaught": {
+    "item": "leftovers",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 16,
+      "def": 32,
+      "hp": 18,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "chesnaughtmega": {
+    "item": "chesnaughtite",
+    "nature": "Careful",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 0,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "chimecho": {
+    "item": "mentalherb",
+    "nature": "Sassy",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 0,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "chimechomega": {
+    "item": "chimechite",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 16,
+      "hp": 12,
+      "spa": 32,
+      "spd": 6,
+      "spe": 0
+    }
+  },
+  "clawitzer": {
+    "item": "lifeorb",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "clefable": {
+    "item": "sitrusberry",
+    "nature": "Calm",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 2,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "clefablemega": {
+    "item": "clefablite",
+    "nature": "Calm",
+    "sp": {
+      "atk": 0,
+      "def": 12,
+      "hp": 32,
+      "spa": 0,
+      "spd": 22,
+      "spe": 0
+    }
+  },
+  "cofagrigus": {
+    "item": "leftovers",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 27,
+      "spa": 0,
+      "spd": 7,
+      "spe": 0
+    }
+  },
+  "conkeldurr": {
+    "item": "lifeorb",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "corviknight": {
+    "item": "leftovers",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 1,
+      "hp": 22,
+      "spa": 0,
+      "spd": 0,
+      "spe": 11
+    }
+  },
+  "crabominable": {
+    "item": "lifeorb",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "crabominablemega": {
+    "item": "crabominite",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "decidueye": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "decidueyehisui": {
+    "item": "scopelens",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "dedenne": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "delphox": {
+    "item": "focussash",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "delphoxmega": {
+    "item": "delphoxite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 11,
+      "hp": 23,
+      "spa": 1,
+      "spd": 0,
+      "spe": 31
+    }
+  },
+  "diggersby": {
+    "item": "lifeorb",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "ditto": {
+    "item": "choicescarf",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "dragalge": {
+    "item": "lifeorb",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "dragalgemega": {
+    "item": "dragalgite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "dragapult": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "dragonite": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "dragonitemega": {
+    "item": "dragoninite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "drampa": {
+    "item": "lifeorb",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "drampamega": {
+    "item": "drampanite",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "eelektross": {
+    "item": "lifeorb",
+    "nature": "Mild",
+    "sp": {
+      "atk": 0,
+      "def": 12,
+      "hp": 2,
+      "spa": 18,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "eelektrossmega": {
+    "item": "eelektrossite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "emboar": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "emboarmega": {
+    "item": "emboarite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 12,
+      "def": 11,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 11
+    }
+  },
+  "emolga": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 1,
+      "hp": 32,
+      "spa": 0,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "empoleon": {
+    "item": "leftovers",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "espathra": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 9,
+      "hp": 32,
+      "spa": 0,
+      "spd": 6,
+      "spe": 19
+    }
+  },
+  "espeon": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "excadrill": {
+    "item": "focussash",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "excadrillmega": {
+    "item": "excadrite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "falinks": {
+    "item": "focussash",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 17,
+      "spa": 0,
+      "spd": 0,
+      "spe": 17
+    }
+  },
+  "falinksmega": {
+    "item": "falinksite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "farigiraf": {
+    "item": "sitrusberry",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 21,
+      "hp": 27,
+      "spa": 0,
+      "spd": 18,
+      "spe": 0
+    }
+  },
+  "feraligatr": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 15,
+      "def": 0,
+      "hp": 31,
+      "spa": 0,
+      "spd": 20,
+      "spe": 0
+    }
+  },
+  "feraligatrmega": {
+    "item": "feraligite",
+    "nature": "Brave",
+    "sp": {
+      "atk": 30,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    }
+  },
+  "flapple": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "flareon": {
+    "item": "whiteherb",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 31,
+      "spa": 0,
+      "spd": 3,
+      "spe": 0
+    }
+  },
+  "floetteeternal": {
+    "item": "choicescarf",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "floettemega": {
+    "item": "floettite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "florges": {
+    "item": "choicescarf",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 1,
+      "hp": 22,
+      "spa": 11,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "forretress": {
+    "item": "leftovers",
+    "nature": "Sassy",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 0,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "froslass": {
+    "item": "widelens",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "froslassmega": {
+    "item": "froslassite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "furfrou": {
+    "item": "leftovers",
+    "nature": "Impish",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "gallade": {
+    "item": "expertbelt",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 13,
+      "hp": 21,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "gallademega": {
+    "item": "galladite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "garbodor": {
+    "item": "leftovers",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 17,
+      "spa": 0,
+      "spd": 0,
+      "spe": 17
+    }
+  },
+  "garchomp": {
+    "item": "lifeorb",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "garchompmega": {
+    "item": "garchompite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 10,
+      "spa": 30,
+      "spd": 0,
+      "spe": 26
+    }
+  },
+  "gardevoir": {
+    "item": "focussash",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "gardevoirmega": {
+    "item": "gardevoirite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "garganacl": {
+    "item": "leftovers",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "gengar": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "gengarmega": {
+    "item": "gengarite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "gholdengo": {
+    "item": "lifeorb",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "glaceon": null,
+  "glalie": {
+    "item": "silkscarf",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "glaliemega": {
+    "item": "glalitite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "glimmora": {
+    "item": "focussash",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "glimmoramega": {
+    "item": "glimmoranite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 1,
+      "spa": 32,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "gliscor": {
+    "item": "lifeorb",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 1,
+      "spa": 0,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "golurk": {
+    "item": "lifeorb",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "golurkmega": {
+    "item": "golurkite",
+    "nature": "Brave",
+    "sp": {
+      "atk": 21,
+      "def": 13,
+      "hp": 31,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "goodra": {
+    "item": "leftovers",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 27,
+      "spa": 7,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "goodrahisui": {
+    "item": "leftovers",
+    "nature": "Brave",
+    "sp": {
+      "atk": 11,
+      "def": 24,
+      "hp": 31,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "gourgeist": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "gourgeistlarge": {
+    "item": "focussash",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "gourgeistsmall": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "gourgeistsuper": {
+    "item": "occaberry",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 8,
+      "hp": 32,
+      "spa": 0,
+      "spd": 26,
+      "spe": 0
+    }
+  },
+  "greninja": {
+    "item": "lifeorb",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "greninjamega": {
+    "item": "greninjite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "grimmsnarl": {
+    "item": "lightclay",
+    "nature": "Careful",
+    "sp": {
+      "atk": 0,
+      "def": 19,
+      "hp": 32,
+      "spa": 0,
+      "spd": 15,
+      "spe": 0
+    }
+  },
+  "gyarados": {
+    "item": "sitrusberry",
+    "nature": "Careful",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 0,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "gyaradosmega": {
+    "item": "gyaradosite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 5,
+      "def": 2,
+      "hp": 31,
+      "spa": 0,
+      "spd": 0,
+      "spe": 28
+    }
+  },
+  "hatterene": {
+    "item": "lifeorb",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "hawlucha": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "hawluchamega": {
+    "item": "hawluchanite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "heliolisk": {
+    "item": "lifeorb",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "heracross": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "heracrossmega": {
+    "item": "heracronite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 5,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 29
+    }
+  },
+  "hippowdon": {
+    "item": "leftovers",
+    "nature": "Impish",
+    "sp": {
+      "atk": 0,
+      "def": 12,
+      "hp": 25,
+      "spa": 0,
+      "spd": 23,
+      "spe": 6
+    }
+  },
+  "houndoom": {
+    "item": "focussash",
+    "nature": "Hasty",
+    "sp": {
+      "atk": 1,
+      "def": 0,
+      "hp": 1,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "houndoommega": {
+    "item": "houndoominite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 1,
+      "spa": 32,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "houndstone": {
+    "item": "sitrusberry",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 9,
+      "def": 9,
+      "hp": 28,
+      "spa": 0,
+      "spd": 0,
+      "spe": 20
+    }
+  },
+  "hydrapple": {
+    "item": "lifeorb",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 3,
+      "hp": 31,
+      "spa": 0,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "hydreigon": {
+    "item": "choicescarf",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "incineroar": {
+    "item": "sitrusberry",
+    "nature": "Impish",
+    "sp": {
+      "atk": 0,
+      "def": 21,
+      "hp": 32,
+      "spa": 0,
+      "spd": 11,
+      "spe": 2
+    }
+  },
+  "infernape": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "spa": 32,
+      "spd": 2,
+      "spe": 32
+    }
+  },
+  "jolteon": {
+    "item": "lifeorb",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "kangaskhan": {
+    "item": "silkscarf",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "kangaskhanmega": {
+    "item": "kangaskhanite",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 2,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "kingambit": {
+    "item": "blackglasses",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "kleavor": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "klefki": {
+    "item": "sitrusberry",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 29,
+      "hp": 32,
+      "spa": 0,
+      "spd": 5,
+      "spe": 0
+    }
+  },
+  "kommoo": {
+    "item": "lifeorb",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 29,
+      "spa": 32,
+      "spd": 5,
+      "spe": 0
+    }
+  },
+  "krookodile": {
+    "item": "choicescarf",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "leafeon": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "liepard": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "lopunny": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 2,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "lopunnymega": {
+    "item": "lopunnite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "lucario": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "lucariomega": {
+    "item": "lucarionite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "luxray": {
+    "item": "sitrusberry",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 20,
+      "def": 10,
+      "hp": 28,
+      "spa": 0,
+      "spd": 5,
+      "spe": 3
+    }
+  },
+  "lycanroc": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 1,
+      "spa": 0,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "lycanrocdusk": {
+    "item": "focussash",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "lycanrocmidnight": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 1,
+      "spa": 0,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "machamp": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "malamar": {
+    "item": "sitrusberry",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "malamarmega": {
+    "item": "malamarite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 28,
+      "def": 4,
+      "hp": 30,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    }
+  },
+  "mamoswine": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "manectric": {
+    "item": "choicescarf",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "manectricmega": {
+    "item": "manectite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 15,
+      "hp": 32,
+      "spa": 1,
+      "spd": 0,
+      "spe": 18
+    }
+  },
+  "maushold": {
+    "item": "widelens",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "mausholdfour": null,
+  "mawile": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "mawilemega": {
+    "item": "mawilite",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "medicham": {
+    "item": "focussash",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 1,
+      "hp": 32,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "medichammega": {
+    "item": "medichamite",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 4,
+      "hp": 20,
+      "spa": 0,
+      "spd": 10,
+      "spe": 0
+    }
+  },
+  "meganium": {
+    "item": "leftovers",
+    "nature": "Calm",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 2,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "meganiummega": {
+    "item": "meganiumite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "meowscarada": {
+    "item": "focussash",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 2,
+      "hp": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "meowstic": {
+    "item": "focussash",
+    "nature": "Impish",
+    "sp": {
+      "atk": 0,
+      "def": 24,
+      "hp": 32,
+      "spa": 0,
+      "spd": 10,
+      "spe": 0
+    }
+  },
+  "meowsticf": null,
+  "meowsticfmega": null,
+  "meowsticmmega": null,
+  "metagross": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 25,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 7,
+      "spe": 2
+    }
+  },
+  "metagrossmega": {
+    "item": "metagrossite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "milotic": {
+    "item": "leftovers",
+    "nature": "Calm",
+    "sp": {
+      "atk": 0,
+      "def": 27,
+      "hp": 32,
+      "spa": 0,
+      "spd": 5,
+      "spe": 2
+    }
+  },
+  "mimikyu": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "mimikyubusted": null,
+  "morpeko": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "morpekohangry": null,
+  "mrrime": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "mudsdale": {
+    "item": "sitrusberry",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 31,
+      "spa": 0,
+      "spd": 3,
+      "spe": 0
+    }
+  },
+  "musharna": {
+    "item": "colburberry",
+    "nature": "Sassy",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 2,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "ninetales": {
+    "item": "choicescarf",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "ninetalesalola": {
+    "item": "nevermeltice",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "noivern": {
+    "item": "focussash",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "oranguru": {
+    "item": "mentalherb",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "orthworm": {
+    "item": "sitrusberry",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "overqwil": {
+    "item": "leftovers",
+    "nature": "Careful",
+    "sp": {
+      "atk": 1,
+      "def": 5,
+      "hp": 32,
+      "spa": 0,
+      "spd": 15,
+      "spe": 13
+    }
+  },
+  "palafin": {
+    "item": "mysticwater",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "palafinhero": null,
+  "pangoro": {
+    "item": "focussash",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 20,
+      "hp": 4,
+      "spa": 0,
+      "spd": 10,
+      "spe": 0
+    }
+  },
+  "passimian": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 2,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "pelipper": {
+    "item": "sitrusberry",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "pidgeot": null,
+  "pidgeotmega": {
+    "item": "pidgeotite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 1,
+      "spa": 32,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "pikachu": {
+    "item": "lightball",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 0,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "pinsir": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "pinsirmega": {
+    "item": "pinsirite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "politoed": {
+    "item": "sitrusberry",
+    "nature": "Calm",
+    "sp": {
+      "atk": 0,
+      "def": 23,
+      "hp": 31,
+      "spa": 0,
+      "spd": 12,
+      "spe": 0
+    }
+  },
+  "polteageist": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "polteageistantique": null,
+  "primarina": {
+    "item": "leftovers",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "pyroar": {
+    "item": "charcoal",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "pyroarmega": {
+    "item": "pyroarite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "quaquaval": {
+    "item": "lifeorb",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 1,
+      "spa": 0,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "qwilfish": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 8,
+      "spa": 0,
+      "spd": 0,
+      "spe": 26
+    }
+  },
+  "raichu": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 2,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "raichualola": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "raichumegax": {
+    "item": "raichunitex",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "raichumegay": {
+    "item": "raichunitey",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 13,
+      "hp": 30,
+      "spa": 0,
+      "spd": 0,
+      "spe": 23
+    }
+  },
+  "rampardos": {
+    "item": "lifeorb",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "reuniclus": {
+    "item": "lifeorb",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 22,
+      "hp": 12,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "rhyperior": {
+    "item": "lifeorb",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "roserade": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 4,
+      "spa": 32,
+      "spd": 0,
+      "spe": 30
+    }
+  },
+  "rotom": {
+    "item": "choicescarf",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "rotomfan": {
+    "item": "choicescarf",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "rotomfrost": {
+    "item": "choicescarf",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "rotomheat": {
+    "item": "choicescarf",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "rotommow": {
+    "item": "choicescarf",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "rotomwash": {
+    "item": "sitrusberry",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 12,
+      "hp": 32,
+      "spa": 15,
+      "spd": 1,
+      "spe": 6
+    }
+  },
+  "runerigus": {
+    "item": "sitrusberry",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "sableye": {
+    "item": "lightclay",
+    "nature": "Sassy",
+    "sp": {
+      "atk": 0,
+      "def": 9,
+      "hp": 32,
+      "spa": 0,
+      "spd": 25,
+      "spe": 0
+    }
+  },
+  "sableyemega": {
+    "item": "sablenite",
+    "nature": "Sassy",
+    "sp": {
+      "atk": 0,
+      "def": 9,
+      "hp": 32,
+      "spa": 0,
+      "spd": 25,
+      "spe": 0
+    }
+  },
+  "salazzle": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "samurott": {
+    "item": "expertbelt",
+    "nature": "Brave",
+    "sp": {
+      "atk": 24,
+      "def": 10,
+      "hp": 14,
+      "spa": 8,
+      "spd": 10,
+      "spe": 0
+    }
+  },
+  "samurotthisui": {
+    "item": "choicescarf",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "sandaconda": {
+    "item": "leftovers",
+    "nature": "Careful",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 0,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "sceptile": {
+    "item": "whiteherb",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 1,
+      "hp": 18,
+      "spa": 14,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "sceptilemega": {
+    "item": "sceptilite",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "scizor": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "scizormega": {
+    "item": "scizorite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 1,
+      "hp": 17,
+      "spa": 0,
+      "spd": 1,
+      "spe": 15
+    }
+  },
+  "scolipede": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "scolipedemega": {
+    "item": "scolipite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 6,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 28
+    }
+  },
+  "scovillain": {
+    "item": "sitrusberry",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 13,
+      "hp": 32,
+      "spa": 21,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "scovillainmega": {
+    "item": "scovillainite",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 15,
+      "hp": 32,
+      "spa": 0,
+      "spd": 15,
+      "spe": 4
+    }
+  },
+  "scrafty": {
+    "item": "chopleberry",
+    "nature": "Careful",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 9,
+      "spe": 25
+    }
+  },
+  "scraftymega": {
+    "item": "scraftinite",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "serperior": {
+    "item": "sitrusberry",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 2,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "sharpedo": {
+    "item": "focussash",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "sharpedomega": {
+    "item": "sharpedonite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "simipour": {
+    "item": "focussash",
+    "nature": "Naive",
+    "sp": {
+      "atk": 0,
+      "def": 1,
+      "hp": 1,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "simisage": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 1,
+      "spa": 0,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "simisear": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "sinistcha": {
+    "item": "kasibberry",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 4,
+      "hp": 32,
+      "spa": 0,
+      "spd": 30,
+      "spe": 0
+    }
+  },
+  "sinistchamasterpiece": null,
+  "skarmory": {
+    "item": "leftovers",
+    "nature": "Impish",
+    "sp": {
+      "atk": 0,
+      "def": 30,
+      "hp": 32,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    }
+  },
+  "skarmorymega": {
+    "item": "skarmorite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 7,
+      "spa": 0,
+      "spd": 0,
+      "spe": 27
+    }
+  },
+  "skeledirge": {
+    "item": "sitrusberry",
+    "nature": "Calm",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 2,
+      "spd": 32,
+      "spe": 0
+    }
+  },
+  "slowbro": {
+    "item": "sitrusberry",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 29,
+      "spa": 32,
+      "spd": 5,
+      "spe": 0
+    }
+  },
+  "slowbrogalar": {
+    "item": "quickclaw",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 10,
+      "spd": 24,
+      "spe": 0
+    }
+  },
+  "slowbromega": {
+    "item": "slowbronite",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 3,
+      "hp": 32,
+      "spa": 0,
+      "spd": 31,
+      "spe": 0
+    }
+  },
+  "slowking": {
+    "item": "colburberry",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "slowkinggalar": {
+    "item": "mentalherb",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 4,
+      "hp": 32,
+      "spa": 20,
+      "spd": 10,
+      "spe": 0
+    }
+  },
+  "slurpuff": {
+    "item": "sitrusberry",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "sneasler": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "snorlax": {
+    "item": "leftovers",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 30,
+      "hp": 21,
+      "spa": 0,
+      "spd": 15,
+      "spe": 0
+    }
+  },
+  "spiritomb": {
+    "item": "roseliberry",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 14,
+      "hp": 32,
+      "spa": 0,
+      "spd": 20,
+      "spe": 0
+    }
+  },
+  "staraptor": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 2,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "staraptormega": {
+    "item": "staraptite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 1,
+      "def": 0,
+      "hp": 29,
+      "spa": 0,
+      "spd": 4,
+      "spe": 32
+    }
+  },
+  "starmie": {
+    "item": "lifeorb",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "starmiemega": {
+    "item": "starminite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "steelix": {
+    "item": "lifeorb",
+    "nature": "Careful",
+    "sp": {
+      "atk": 1,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 32,
+      "spe": 1
+    }
+  },
+  "steelixmega": {
+    "item": "steelixite",
+    "nature": "Brave",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "stunfisk": {
+    "item": "lifeorb",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 3,
+      "def": 0,
+      "hp": 31,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "stunfiskgalar": {
+    "item": "leftovers",
+    "nature": "Impish",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 32,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "swampert": {
+    "item": "leftovers",
+    "nature": "Impish",
+    "sp": {
+      "atk": 11,
+      "def": 14,
+      "hp": 32,
+      "spa": 0,
+      "spd": 8,
+      "spe": 1
+    }
+  },
+  "swampertmega": {
+    "item": "swampertite",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "sylveon": {
+    "item": "fairyfeather",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 27,
+      "hp": 19,
+      "spa": 12,
+      "spd": 0,
+      "spe": 8
+    }
+  },
+  "talonflame": {
+    "item": "sharpbeak",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "tauros": {
+    "item": "lifeorb",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 1,
+      "spa": 0,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "taurospaldeaaqua": {
+    "item": "shellbell",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 3,
+      "hp": 0,
+      "spa": 0,
+      "spd": 2,
+      "spe": 29
+    }
+  },
+  "taurospaldeablaze": {
+    "item": "lifeorb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 30,
+      "def": 0,
+      "hp": 1,
+      "spa": 0,
+      "spd": 3,
+      "spe": 32
+    }
+  },
+  "taurospaldeacombat": {
+    "item": "sitrusberry",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "tinkaton": {
+    "item": "shucaberry",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 8,
+      "def": 7,
+      "hp": 23,
+      "spa": 0,
+      "spd": 0,
+      "spe": 28
+    }
+  },
+  "torkoal": {
+    "item": "charcoal",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "torterra": {
+    "item": "whiteherb",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "toucannon": {
+    "item": "kingsrock",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "toxapex": {
+    "item": "leftovers",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 18,
+      "hp": 32,
+      "spa": 0,
+      "spd": 16,
+      "spe": 0
+    }
+  },
+  "toxicroak": {
+    "item": "focussash",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "trevenant": null,
+  "tsareena": {
+    "item": "widelens",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "typhlosion": {
+    "item": "charcoal",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 0,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "typhlosionhisui": {
+    "item": "choicescarf",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "tyranitar": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "tyranitarmega": {
+    "item": "tyranitarite",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 18,
+      "def": 0,
+      "hp": 17,
+      "spa": 0,
+      "spd": 0,
+      "spe": 31
+    }
+  },
+  "tyrantrum": {
+    "item": "choicescarf",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "umbreon": {
+    "item": "leftovers",
+    "nature": "Bold",
+    "sp": {
+      "atk": 0,
+      "def": 20,
+      "hp": 31,
+      "spa": 0,
+      "spd": 15,
+      "spe": 0
+    }
+  },
+  "vanilluxe": {
+    "item": "nevermeltice",
+    "nature": "Quiet",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 32,
+      "spa": 32,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "vaporeon": {
+    "item": "leftovers",
+    "nature": "Relaxed",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 31,
+      "spa": 0,
+      "spd": 3,
+      "spe": 0
+    }
+  },
+  "venusaur": {
+    "item": "lifeorb",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "venusaurmega": {
+    "item": "venusaurite",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 30,
+      "spa": 18,
+      "spd": 0,
+      "spe": 18
+    }
+  },
+  "victreebel": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 1,
+      "hp": 0,
+      "spa": 32,
+      "spd": 1,
+      "spe": 32
+    }
+  },
+  "victreebelmega": {
+    "item": "victreebelite",
+    "nature": "Rash",
+    "sp": {
+      "atk": 0,
+      "def": 2,
+      "hp": 32,
+      "spa": 32,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "vileplume": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "vivillon": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "vivillonfancy": null,
+  "vivillonpokeball": null,
+  "volcarona": {
+    "item": "sitrusberry",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 12,
+      "hp": 32,
+      "spa": 7,
+      "spd": 0,
+      "spe": 15
+    }
+  },
+  "watchog": {
+    "item": "widelens",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "weavile": {
+    "item": "focussash",
+    "nature": "Jolly",
+    "sp": {
+      "atk": 32,
+      "def": 0,
+      "hp": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "whimsicott": {
+    "item": "focussash",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "wyrdeer": {
+    "item": "colburberry",
+    "nature": "Adamant",
+    "sp": {
+      "atk": 0,
+      "def": 32,
+      "hp": 2,
+      "spa": 0,
+      "spd": 26,
+      "spe": 6
+    }
+  },
+  "zoroark": {
+    "item": "lifeorb",
+    "nature": "Modest",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  },
+  "zoroarkhisui": {
+    "item": "choicescarf",
+    "nature": "Timid",
+    "sp": {
+      "atk": 0,
+      "def": 0,
+      "hp": 2,
+      "spa": 32,
+      "spd": 0,
+      "spe": 32
+    }
+  }
+}

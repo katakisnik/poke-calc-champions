@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poke-calc"
+version = "0.1.0"
+description = "Pokemon Champions damage calculator"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "streamlit"]
+ui = ["streamlit"]
+
+[tool.setuptools.packages.find]
+include = ["poke_calc*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

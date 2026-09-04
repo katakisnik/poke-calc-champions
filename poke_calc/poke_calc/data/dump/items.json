@@ -1,0 +1,1108 @@
+{
+  "abomasite": {
+    "kind": "Item",
+    "id": "abomasite",
+    "name": "Abomasite",
+    "megaStone": {
+      "Abomasnow": "Abomasnow-Mega"
+    }
+  },
+  "absolite": {
+    "kind": "Item",
+    "id": "absolite",
+    "name": "Absolite",
+    "megaStone": {
+      "Absol": "Absol-Mega"
+    }
+  },
+  "aerodactylite": {
+    "kind": "Item",
+    "id": "aerodactylite",
+    "name": "Aerodactylite",
+    "megaStone": {
+      "Aerodactyl": "Aerodactyl-Mega"
+    }
+  },
+  "aggronite": {
+    "kind": "Item",
+    "id": "aggronite",
+    "name": "Aggronite",
+    "megaStone": {
+      "Aggron": "Aggron-Mega"
+    }
+  },
+  "alakazite": {
+    "kind": "Item",
+    "id": "alakazite",
+    "name": "Alakazite",
+    "megaStone": {
+      "Alakazam": "Alakazam-Mega"
+    }
+  },
+  "altarianite": {
+    "kind": "Item",
+    "id": "altarianite",
+    "name": "Altarianite",
+    "megaStone": {
+      "Altaria": "Altaria-Mega"
+    }
+  },
+  "ampharosite": {
+    "kind": "Item",
+    "id": "ampharosite",
+    "name": "Ampharosite",
+    "megaStone": {
+      "Ampharos": "Ampharos-Mega"
+    }
+  },
+  "aspearberry": {
+    "kind": "Item",
+    "id": "aspearberry",
+    "name": "Aspear Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Ice"
+    }
+  },
+  "audinite": {
+    "kind": "Item",
+    "id": "audinite",
+    "name": "Audinite",
+    "megaStone": {
+      "Audino": "Audino-Mega"
+    }
+  },
+  "babiriberry": {
+    "kind": "Item",
+    "id": "babiriberry",
+    "name": "Babiri Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Steel"
+    }
+  },
+  "banettite": {
+    "kind": "Item",
+    "id": "banettite",
+    "name": "Banettite",
+    "megaStone": {
+      "Banette": "Banette-Mega"
+    }
+  },
+  "barbaracite": {
+    "kind": "Item",
+    "id": "barbaracite",
+    "name": "Barbaracite",
+    "megaStone": {
+      "Barbaracle": "Barbaracle-Mega"
+    }
+  },
+  "beedrillite": {
+    "kind": "Item",
+    "id": "beedrillite",
+    "name": "Beedrillite",
+    "megaStone": {
+      "Beedrill": "Beedrill-Mega"
+    }
+  },
+  "bigroot": {
+    "kind": "Item",
+    "id": "bigroot",
+    "name": "Big Root"
+  },
+  "blackbelt": {
+    "kind": "Item",
+    "id": "blackbelt",
+    "name": "Black Belt"
+  },
+  "blackglasses": {
+    "kind": "Item",
+    "id": "blackglasses",
+    "name": "Black Glasses"
+  },
+  "blastoisinite": {
+    "kind": "Item",
+    "id": "blastoisinite",
+    "name": "Blastoisinite",
+    "megaStone": {
+      "Blastoise": "Blastoise-Mega"
+    }
+  },
+  "blazikenite": {
+    "kind": "Item",
+    "id": "blazikenite",
+    "name": "Blazikenite",
+    "megaStone": {
+      "Blaziken": "Blaziken-Mega"
+    }
+  },
+  "brightpowder": {
+    "kind": "Item",
+    "id": "brightpowder",
+    "name": "Bright Powder"
+  },
+  "cameruptite": {
+    "kind": "Item",
+    "id": "cameruptite",
+    "name": "Cameruptite",
+    "megaStone": {
+      "Camerupt": "Camerupt-Mega"
+    }
+  },
+  "chandelurite": {
+    "kind": "Item",
+    "id": "chandelurite",
+    "name": "Chandelurite",
+    "megaStone": {
+      "Chandelure": "Chandelure-Mega"
+    }
+  },
+  "charcoal": {
+    "kind": "Item",
+    "id": "charcoal",
+    "name": "Charcoal"
+  },
+  "charizarditex": {
+    "kind": "Item",
+    "id": "charizarditex",
+    "name": "Charizardite X",
+    "megaStone": {
+      "Charizard": "Charizard-Mega-X"
+    }
+  },
+  "charizarditey": {
+    "kind": "Item",
+    "id": "charizarditey",
+    "name": "Charizardite Y",
+    "megaStone": {
+      "Charizard": "Charizard-Mega-Y"
+    }
+  },
+  "chartiberry": {
+    "kind": "Item",
+    "id": "chartiberry",
+    "name": "Charti Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Rock"
+    }
+  },
+  "cheriberry": {
+    "kind": "Item",
+    "id": "cheriberry",
+    "name": "Cheri Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Fire"
+    }
+  },
+  "chesnaughtite": {
+    "kind": "Item",
+    "id": "chesnaughtite",
+    "name": "Chesnaughtite",
+    "megaStone": {
+      "Chesnaught": "Chesnaught-Mega"
+    }
+  },
+  "chestoberry": {
+    "kind": "Item",
+    "id": "chestoberry",
+    "name": "Chesto Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Water"
+    }
+  },
+  "chilanberry": {
+    "kind": "Item",
+    "id": "chilanberry",
+    "name": "Chilan Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Normal"
+    }
+  },
+  "chimechite": {
+    "kind": "Item",
+    "id": "chimechite",
+    "name": "Chimechite",
+    "megaStone": {
+      "Chimecho": "Chimecho-Mega"
+    }
+  },
+  "choicescarf": {
+    "kind": "Item",
+    "id": "choicescarf",
+    "name": "Choice Scarf"
+  },
+  "chopleberry": {
+    "kind": "Item",
+    "id": "chopleberry",
+    "name": "Chople Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Fighting"
+    }
+  },
+  "clefablite": {
+    "kind": "Item",
+    "id": "clefablite",
+    "name": "Clefablite",
+    "megaStone": {
+      "Clefable": "Clefable-Mega"
+    }
+  },
+  "cobaberry": {
+    "kind": "Item",
+    "id": "cobaberry",
+    "name": "Coba Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Flying"
+    }
+  },
+  "colburberry": {
+    "kind": "Item",
+    "id": "colburberry",
+    "name": "Colbur Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Dark"
+    }
+  },
+  "crabominite": {
+    "kind": "Item",
+    "id": "crabominite",
+    "name": "Crabominite",
+    "megaStone": {
+      "Crabominable": "Crabominable-Mega"
+    }
+  },
+  "damprock": {
+    "kind": "Item",
+    "id": "damprock",
+    "name": "Damp Rock"
+  },
+  "delphoxite": {
+    "kind": "Item",
+    "id": "delphoxite",
+    "name": "Delphoxite",
+    "megaStone": {
+      "Delphox": "Delphox-Mega"
+    }
+  },
+  "dragalgite": {
+    "kind": "Item",
+    "id": "dragalgite",
+    "name": "Dragalgite",
+    "megaStone": {
+      "Dragalge": "Dragalge-Mega"
+    }
+  },
+  "dragonfang": {
+    "kind": "Item",
+    "id": "dragonfang",
+    "name": "Dragon Fang"
+  },
+  "dragoninite": {
+    "kind": "Item",
+    "id": "dragoninite",
+    "name": "Dragoninite",
+    "megaStone": {
+      "Dragonite": "Dragonite-Mega"
+    }
+  },
+  "drampanite": {
+    "kind": "Item",
+    "id": "drampanite",
+    "name": "Drampanite",
+    "megaStone": {
+      "Drampa": "Drampa-Mega"
+    }
+  },
+  "eelektrossite": {
+    "kind": "Item",
+    "id": "eelektrossite",
+    "name": "Eelektrossite",
+    "megaStone": {
+      "Eelektross": "Eelektross-Mega"
+    }
+  },
+  "emboarite": {
+    "kind": "Item",
+    "id": "emboarite",
+    "name": "Emboarite",
+    "megaStone": {
+      "Emboar": "Emboar-Mega"
+    }
+  },
+  "excadrite": {
+    "kind": "Item",
+    "id": "excadrite",
+    "name": "Excadrite",
+    "megaStone": {
+      "Excadrill": "Excadrill-Mega"
+    }
+  },
+  "expertbelt": {
+    "kind": "Item",
+    "id": "expertbelt",
+    "name": "Expert Belt"
+  },
+  "fairyfeather": {
+    "kind": "Item",
+    "id": "fairyfeather",
+    "name": "Fairy Feather"
+  },
+  "falinksite": {
+    "kind": "Item",
+    "id": "falinksite",
+    "name": "Falinksite",
+    "megaStone": {
+      "Falinks": "Falinks-Mega"
+    }
+  },
+  "feraligite": {
+    "kind": "Item",
+    "id": "feraligite",
+    "name": "Feraligite",
+    "megaStone": {
+      "Feraligatr": "Feraligatr-Mega"
+    }
+  },
+  "floettite": {
+    "kind": "Item",
+    "id": "floettite",
+    "name": "Floettite",
+    "megaStone": {
+      "Floette-Eternal": "Floette-Mega"
+    }
+  },
+  "focusband": {
+    "kind": "Item",
+    "id": "focusband",
+    "name": "Focus Band"
+  },
+  "focussash": {
+    "kind": "Item",
+    "id": "focussash",
+    "name": "Focus Sash"
+  },
+  "froslassite": {
+    "kind": "Item",
+    "id": "froslassite",
+    "name": "Froslassite",
+    "megaStone": {
+      "Froslass": "Froslass-Mega"
+    }
+  },
+  "galladite": {
+    "kind": "Item",
+    "id": "galladite",
+    "name": "Galladite",
+    "megaStone": {
+      "Gallade": "Gallade-Mega"
+    }
+  },
+  "garchompite": {
+    "kind": "Item",
+    "id": "garchompite",
+    "name": "Garchompite",
+    "megaStone": {
+      "Garchomp": "Garchomp-Mega"
+    }
+  },
+  "gardevoirite": {
+    "kind": "Item",
+    "id": "gardevoirite",
+    "name": "Gardevoirite",
+    "megaStone": {
+      "Gardevoir": "Gardevoir-Mega"
+    }
+  },
+  "gengarite": {
+    "kind": "Item",
+    "id": "gengarite",
+    "name": "Gengarite",
+    "megaStone": {
+      "Gengar": "Gengar-Mega"
+    }
+  },
+  "glalitite": {
+    "kind": "Item",
+    "id": "glalitite",
+    "name": "Glalitite",
+    "megaStone": {
+      "Glalie": "Glalie-Mega"
+    }
+  },
+  "glimmoranite": {
+    "kind": "Item",
+    "id": "glimmoranite",
+    "name": "Glimmoranite",
+    "megaStone": {
+      "Glimmora": "Glimmora-Mega"
+    }
+  },
+  "golurkite": {
+    "kind": "Item",
+    "id": "golurkite",
+    "name": "Golurkite",
+    "megaStone": {
+      "Golurk": "Golurk-Mega"
+    }
+  },
+  "greninjite": {
+    "kind": "Item",
+    "id": "greninjite",
+    "name": "Greninjite",
+    "megaStone": {
+      "Greninja": "Greninja-Mega"
+    }
+  },
+  "gyaradosite": {
+    "kind": "Item",
+    "id": "gyaradosite",
+    "name": "Gyaradosite",
+    "megaStone": {
+      "Gyarados": "Gyarados-Mega"
+    }
+  },
+  "habanberry": {
+    "kind": "Item",
+    "id": "habanberry",
+    "name": "Haban Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Dragon"
+    }
+  },
+  "hardstone": {
+    "kind": "Item",
+    "id": "hardstone",
+    "name": "Hard Stone"
+  },
+  "hawluchanite": {
+    "kind": "Item",
+    "id": "hawluchanite",
+    "name": "Hawluchanite",
+    "megaStone": {
+      "Hawlucha": "Hawlucha-Mega"
+    }
+  },
+  "heatrock": {
+    "kind": "Item",
+    "id": "heatrock",
+    "name": "Heat Rock"
+  },
+  "heracronite": {
+    "kind": "Item",
+    "id": "heracronite",
+    "name": "Heracronite",
+    "megaStone": {
+      "Heracross": "Heracross-Mega"
+    }
+  },
+  "houndoominite": {
+    "kind": "Item",
+    "id": "houndoominite",
+    "name": "Houndoominite",
+    "megaStone": {
+      "Houndoom": "Houndoom-Mega"
+    }
+  },
+  "icyrock": {
+    "kind": "Item",
+    "id": "icyrock",
+    "name": "Icy Rock"
+  },
+  "ironball": {
+    "kind": "Item",
+    "id": "ironball",
+    "name": "Iron Ball"
+  },
+  "kangaskhanite": {
+    "kind": "Item",
+    "id": "kangaskhanite",
+    "name": "Kangaskhanite",
+    "megaStone": {
+      "Kangaskhan": "Kangaskhan-Mega"
+    }
+  },
+  "kasibberry": {
+    "kind": "Item",
+    "id": "kasibberry",
+    "name": "Kasib Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Ghost"
+    }
+  },
+  "kebiaberry": {
+    "kind": "Item",
+    "id": "kebiaberry",
+    "name": "Kebia Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Poison"
+    }
+  },
+  "kingsrock": {
+    "kind": "Item",
+    "id": "kingsrock",
+    "name": "King's Rock"
+  },
+  "leftovers": {
+    "kind": "Item",
+    "id": "leftovers",
+    "name": "Leftovers"
+  },
+  "leppaberry": {
+    "kind": "Item",
+    "id": "leppaberry",
+    "name": "Leppa Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Fighting"
+    }
+  },
+  "lifeorb": {
+    "kind": "Item",
+    "id": "lifeorb",
+    "name": "Life Orb"
+  },
+  "lightball": {
+    "kind": "Item",
+    "id": "lightball",
+    "name": "Light Ball"
+  },
+  "lightclay": {
+    "kind": "Item",
+    "id": "lightclay",
+    "name": "Light Clay"
+  },
+  "lopunnite": {
+    "kind": "Item",
+    "id": "lopunnite",
+    "name": "Lopunnite",
+    "megaStone": {
+      "Lopunny": "Lopunny-Mega"
+    }
+  },
+  "lucarionite": {
+    "kind": "Item",
+    "id": "lucarionite",
+    "name": "Lucarionite",
+    "megaStone": {
+      "Lucario": "Lucario-Mega"
+    }
+  },
+  "lumberry": {
+    "kind": "Item",
+    "id": "lumberry",
+    "name": "Lum Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Flying"
+    }
+  },
+  "magnet": {
+    "kind": "Item",
+    "id": "magnet",
+    "name": "Magnet"
+  },
+  "malamarite": {
+    "kind": "Item",
+    "id": "malamarite",
+    "name": "Malamarite",
+    "megaStone": {
+      "Malamar": "Malamar-Mega"
+    }
+  },
+  "manectite": {
+    "kind": "Item",
+    "id": "manectite",
+    "name": "Manectite",
+    "megaStone": {
+      "Manectric": "Manectric-Mega"
+    }
+  },
+  "mawilite": {
+    "kind": "Item",
+    "id": "mawilite",
+    "name": "Mawilite",
+    "megaStone": {
+      "Mawile": "Mawile-Mega"
+    }
+  },
+  "medichamite": {
+    "kind": "Item",
+    "id": "medichamite",
+    "name": "Medichamite",
+    "megaStone": {
+      "Medicham": "Medicham-Mega"
+    }
+  },
+  "meganiumite": {
+    "kind": "Item",
+    "id": "meganiumite",
+    "name": "Meganiumite",
+    "megaStone": {
+      "Meganium": "Meganium-Mega"
+    }
+  },
+  "mentalherb": {
+    "kind": "Item",
+    "id": "mentalherb",
+    "name": "Mental Herb"
+  },
+  "meowsticite": {
+    "kind": "Item",
+    "id": "meowsticite",
+    "name": "Meowsticite",
+    "megaStone": {
+      "Meowstic": "Meowstic-M-Mega",
+      "Meowstic-F": "Meowstic-F-Mega"
+    }
+  },
+  "metagrossite": {
+    "kind": "Item",
+    "id": "metagrossite",
+    "name": "Metagrossite",
+    "megaStone": {
+      "Metagross": "Metagross-Mega"
+    }
+  },
+  "metalcoat": {
+    "kind": "Item",
+    "id": "metalcoat",
+    "name": "Metal Coat"
+  },
+  "metronome": {
+    "kind": "Item",
+    "id": "metronome",
+    "name": "Metronome"
+  },
+  "miracleseed": {
+    "kind": "Item",
+    "id": "miracleseed",
+    "name": "Miracle Seed"
+  },
+  "muscleband": {
+    "kind": "Item",
+    "id": "muscleband",
+    "name": "Muscle Band"
+  },
+  "mysticwater": {
+    "kind": "Item",
+    "id": "mysticwater",
+    "name": "Mystic Water"
+  },
+  "nevermeltice": {
+    "kind": "Item",
+    "id": "nevermeltice",
+    "name": "Never-Melt Ice"
+  },
+  "occaberry": {
+    "kind": "Item",
+    "id": "occaberry",
+    "name": "Occa Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Fire"
+    }
+  },
+  "oranberry": {
+    "kind": "Item",
+    "id": "oranberry",
+    "name": "Oran Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Poison"
+    }
+  },
+  "passhoberry": {
+    "kind": "Item",
+    "id": "passhoberry",
+    "name": "Passho Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Water"
+    }
+  },
+  "payapaberry": {
+    "kind": "Item",
+    "id": "payapaberry",
+    "name": "Payapa Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Psychic"
+    }
+  },
+  "pechaberry": {
+    "kind": "Item",
+    "id": "pechaberry",
+    "name": "Pecha Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Electric"
+    }
+  },
+  "persimberry": {
+    "kind": "Item",
+    "id": "persimberry",
+    "name": "Persim Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Ground"
+    }
+  },
+  "pidgeotite": {
+    "kind": "Item",
+    "id": "pidgeotite",
+    "name": "Pidgeotite",
+    "megaStone": {
+      "Pidgeot": "Pidgeot-Mega"
+    }
+  },
+  "pinsirite": {
+    "kind": "Item",
+    "id": "pinsirite",
+    "name": "Pinsirite",
+    "megaStone": {
+      "Pinsir": "Pinsir-Mega"
+    }
+  },
+  "poisonbarb": {
+    "kind": "Item",
+    "id": "poisonbarb",
+    "name": "Poison Barb"
+  },
+  "pyroarite": {
+    "kind": "Item",
+    "id": "pyroarite",
+    "name": "Pyroarite",
+    "megaStone": {
+      "Pyroar": "Pyroar-Mega"
+    }
+  },
+  "quickclaw": {
+    "kind": "Item",
+    "id": "quickclaw",
+    "name": "Quick Claw"
+  },
+  "raichunitex": {
+    "kind": "Item",
+    "id": "raichunitex",
+    "name": "Raichunite X",
+    "megaStone": {
+      "Raichu": "Raichu-Mega-X"
+    }
+  },
+  "raichunitey": {
+    "kind": "Item",
+    "id": "raichunitey",
+    "name": "Raichunite Y",
+    "megaStone": {
+      "Raichu": "Raichu-Mega-Y"
+    }
+  },
+  "rawstberry": {
+    "kind": "Item",
+    "id": "rawstberry",
+    "name": "Rawst Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Grass"
+    }
+  },
+  "rindoberry": {
+    "kind": "Item",
+    "id": "rindoberry",
+    "name": "Rindo Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Grass"
+    }
+  },
+  "roseliberry": {
+    "kind": "Item",
+    "id": "roseliberry",
+    "name": "Roseli Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Fairy"
+    }
+  },
+  "sablenite": {
+    "kind": "Item",
+    "id": "sablenite",
+    "name": "Sablenite",
+    "megaStone": {
+      "Sableye": "Sableye-Mega"
+    }
+  },
+  "sceptilite": {
+    "kind": "Item",
+    "id": "sceptilite",
+    "name": "Sceptilite",
+    "megaStone": {
+      "Sceptile": "Sceptile-Mega"
+    }
+  },
+  "scizorite": {
+    "kind": "Item",
+    "id": "scizorite",
+    "name": "Scizorite",
+    "megaStone": {
+      "Scizor": "Scizor-Mega"
+    }
+  },
+  "scolipite": {
+    "kind": "Item",
+    "id": "scolipite",
+    "name": "Scolipite",
+    "megaStone": {
+      "Scolipede": "Scolipede-Mega"
+    }
+  },
+  "scopelens": {
+    "kind": "Item",
+    "id": "scopelens",
+    "name": "Scope Lens"
+  },
+  "scovillainite": {
+    "kind": "Item",
+    "id": "scovillainite",
+    "name": "Scovillainite",
+    "megaStone": {
+      "Scovillain": "Scovillain-Mega"
+    }
+  },
+  "scraftinite": {
+    "kind": "Item",
+    "id": "scraftinite",
+    "name": "Scraftinite",
+    "megaStone": {
+      "Scrafty": "Scrafty-Mega"
+    }
+  },
+  "sharpbeak": {
+    "kind": "Item",
+    "id": "sharpbeak",
+    "name": "Sharp Beak"
+  },
+  "sharpedonite": {
+    "kind": "Item",
+    "id": "sharpedonite",
+    "name": "Sharpedonite",
+    "megaStone": {
+      "Sharpedo": "Sharpedo-Mega"
+    }
+  },
+  "shedshell": {
+    "kind": "Item",
+    "id": "shedshell",
+    "name": "Shed Shell"
+  },
+  "shellbell": {
+    "kind": "Item",
+    "id": "shellbell",
+    "name": "Shell Bell"
+  },
+  "shucaberry": {
+    "kind": "Item",
+    "id": "shucaberry",
+    "name": "Shuca Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Ground"
+    }
+  },
+  "silkscarf": {
+    "kind": "Item",
+    "id": "silkscarf",
+    "name": "Silk Scarf"
+  },
+  "silverpowder": {
+    "kind": "Item",
+    "id": "silverpowder",
+    "name": "Silver Powder"
+  },
+  "sitrusberry": {
+    "kind": "Item",
+    "id": "sitrusberry",
+    "name": "Sitrus Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Psychic"
+    }
+  },
+  "skarmorite": {
+    "kind": "Item",
+    "id": "skarmorite",
+    "name": "Skarmorite",
+    "megaStone": {
+      "Skarmory": "Skarmory-Mega"
+    }
+  },
+  "slowbronite": {
+    "kind": "Item",
+    "id": "slowbronite",
+    "name": "Slowbronite",
+    "megaStone": {
+      "Slowbro": "Slowbro-Mega"
+    }
+  },
+  "smoothrock": {
+    "kind": "Item",
+    "id": "smoothrock",
+    "name": "Smooth Rock"
+  },
+  "softsand": {
+    "kind": "Item",
+    "id": "softsand",
+    "name": "Soft Sand"
+  },
+  "spelltag": {
+    "kind": "Item",
+    "id": "spelltag",
+    "name": "Spell Tag"
+  },
+  "staraptite": {
+    "kind": "Item",
+    "id": "staraptite",
+    "name": "Staraptite",
+    "megaStone": {
+      "Staraptor": "Staraptor-Mega"
+    }
+  },
+  "starminite": {
+    "kind": "Item",
+    "id": "starminite",
+    "name": "Starminite",
+    "megaStone": {
+      "Starmie": "Starmie-Mega"
+    }
+  },
+  "steelixite": {
+    "kind": "Item",
+    "id": "steelixite",
+    "name": "Steelixite",
+    "megaStone": {
+      "Steelix": "Steelix-Mega"
+    }
+  },
+  "swampertite": {
+    "kind": "Item",
+    "id": "swampertite",
+    "name": "Swampertite",
+    "megaStone": {
+      "Swampert": "Swampert-Mega"
+    }
+  },
+  "tangaberry": {
+    "kind": "Item",
+    "id": "tangaberry",
+    "name": "Tanga Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Bug"
+    }
+  },
+  "twistedspoon": {
+    "kind": "Item",
+    "id": "twistedspoon",
+    "name": "Twisted Spoon"
+  },
+  "tyranitarite": {
+    "kind": "Item",
+    "id": "tyranitarite",
+    "name": "Tyranitarite",
+    "megaStone": {
+      "Tyranitar": "Tyranitar-Mega"
+    }
+  },
+  "venusaurite": {
+    "kind": "Item",
+    "id": "venusaurite",
+    "name": "Venusaurite",
+    "megaStone": {
+      "Venusaur": "Venusaur-Mega"
+    }
+  },
+  "victreebelite": {
+    "kind": "Item",
+    "id": "victreebelite",
+    "name": "Victreebelite",
+    "megaStone": {
+      "Victreebel": "Victreebel-Mega"
+    }
+  },
+  "wacanberry": {
+    "kind": "Item",
+    "id": "wacanberry",
+    "name": "Wacan Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Electric"
+    }
+  },
+  "whiteherb": {
+    "kind": "Item",
+    "id": "whiteherb",
+    "name": "White Herb"
+  },
+  "widelens": {
+    "kind": "Item",
+    "id": "widelens",
+    "name": "Wide Lens"
+  },
+  "wiseglasses": {
+    "kind": "Item",
+    "id": "wiseglasses",
+    "name": "Wise Glasses"
+  },
+  "yacheberry": {
+    "kind": "Item",
+    "id": "yacheberry",
+    "name": "Yache Berry",
+    "isBerry": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Ice"
+    }
+  },
+  "zoomlens": {
+    "kind": "Item",
+    "id": "zoomlens",
+    "name": "Zoom Lens"
+  }
+}

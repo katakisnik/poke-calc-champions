@@ -1,0 +1,233 @@
+This project vendors and adapts third-party work:
+
+1. poke-env (damage_calc_gen9.py)
+   Source: https://github.com/hsahovic/poke-env
+   License: MIT
+
+   MIT License
+
+   Copyright (c) 2019 hsahovic
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+2. @smogon/calc (used as a dev-only correctness oracle, and as the source of the
+   Champions game-data dump in poke_calc/poke_calc/data/dump/)
+   Source: https://github.com/smogon/damage-calc
+   License: MIT
+   Pinned commit: 636e5b9bb42aa374e99323cdeec0317f7f8a16e0 (2026-08-21)
+
+   The Champions mode ("generation 0") used by this project is not present in
+   the published npm package (@smogon/calc@0.11.0) as of the pinned date; the
+   oracle/ directory clones and builds the repository from the pinned commit
+   directly. If refreshing this pin, re-verify the data dump and re-run the
+   differential fuzz suite before trusting new results.
+
+   MIT License text: see oracle/LICENSE (identical structure to poke-env's, with
+   copyright held by the smogon/damage-calc contributors).
+
+   Known data gap in the pinned build: @smogon/calc's own CHAMPIONS_PATCH merge
+   is shallow (not deep) for exactly 12 move ids, so the patch object (which
+   only carries the *changed* fields) replaces the base SV move entry instead
+   of merging into it. This drops `type` (and, for Metal Claw, `basePower`)
+   entirely. Confirmed upstream, not a dump artifact: calling calculate() with
+   any of these moves throws in the pinned build. Affected ids: anchorshot,
+   astralbarrage, bloodmoon, boltbeak, dragonhammer, fishiousrend, geargrind,
+   hyperdrill, metalclaw, revelationdance, snipeshot, tripledive. Only the
+   first four (plus metalclaw's slicing flag) are legal in Champions today;
+   the rest are "Past"-flagged and dormant. poke_calc/poke_calc/data/loader.py patches
+   all 12 with correct types (and Metal Claw's base power) from well-known,
+   non-Champions-specific game data. Because calculate() itself throws on
+   these upstream, they must be excluded from any oracle-diff fuzzing
+   (Phase 3) and are instead covered by hand-verified unit tests
+   (tests/test_loader.py::TestMoveDataGapPatch).
+
+   Second known gap: the pinned oracle build throws `damage[damage.length -
+   1] === 0` (an internal assertion, not a data problem) for ANY case whose
+   correct answer is total type immunity - reproduced with both a
+   Champions-exclusive ability (Eelevate) and a plain SV ability (Levitate)
+   vs an Earthquake, so this is general, not ability-specific. Champions
+   engine code (poke_calc/poke_calc/engine/damage.py) returns [0]*16 for these cases,
+   which is correct per the type chart / immunity mechanics independent of
+   the oracle; such cases are verified by direct unit test instead of
+   oracle diffing (tests/test_differential.py's
+   test_eelevate_grounds_ground_move_immunity) and should be excluded from
+   Phase 3's fuzz corpus the same way (or the fuzzer should treat an oracle
+   `ok: false` response as "skip, not a real mismatch" rather than a
+   failure - see tests/test_differential.py::TestRandomizedSweep for the
+   pattern this should generalize).
+
+3. Pokekipe (poke_calc/poke_calc/data/dump/pokekipe_sets.json - the suggested nature +
+   SP spread + held item shown by default for each species in the UI)
+   Source: https://pokekipe.com (free public API, no account needed;
+   OpenAPI spec at https://pokekipe.com/openapi.json)
+   License/terms: none stated in the OpenAPI spec at the time of fetching;
+   this project only reads the free public read endpoints and does not
+   redistribute anything beyond a small per-species (nature, SP spread,
+   item) summary derived from them.
+
+   Snapshot taken 2026-08-31 via poke_calc/poke_calc/data/generate_pokekipe_sets.py,
+   which fetches /api/v1/pokemon/{species-slug}/{format_id}?tolerate_missing=true
+   for every dex species, from gen9championsvgc2026regmb (Champions VGC
+   2026 Reg M-B, the biggest Doubles/VGC format). Doubles-only by request -
+   the suggested set shown in the UI is always the Doubles ladder spread,
+   regardless of the Singles/Doubles toggle elsewhere in the UI (an earlier
+   version of this snapshot also fetched Champions OU for a Singles-specific
+   suggestion; that was dropped, and the JSON shape simplified from
+   {species: {singles, doubles}} to {species: spread|null} accordingly).
+   Only the top-usage entry from each response's `spreads` list (and,
+   since 2026-08-31, the top entry from its `items` list) is kept. As of
+   this snapshot 304/324 species have data; the rest (mostly niche/newer
+   Mega formes, plus a handful that hit the API's rate limit during the
+   fetch itself - see generate_pokekipe_sets.py's _fetch_json docstring)
+   fall back to poke_calc/poke_calc/engine/suggestions.py's base-stat heuristic for
+   nature/SP (that heuristic has no item-suggestion equivalent, so those
+   species just default to no item) - see that module's docstring for what
+   the heuristic is and isn't. Re-run the generator periodically to pick
+   up ladder shifts; it is NOT called live from the running UI (Streamlit
+   reruns the whole script on every widget interaction, so a live
+   per-species call there would mean hundreds of requests to Pokekipe's
+   free service per session).
+
+   Confirmed by direct API inspection, not assumed: species slugs on
+   Pokekipe are the display name lowercased with hyphens kept as-is (e.g.
+   "Tauros-Paldea-Aqua" -> "tauros-paldea-aqua") - a third, different
+   convention from both this project's own to_id() and from Showdown's
+   sprite filenames (see poke_calc/poke_calc/data/generate_sprite_ids.py). The `spread` string
+   ("Nature:hp/atk/def/spa/spd/spe") is already in the 0-32 SP scale this
+   project uses internally, not the mainline 0-252 EV scale - no
+   conversion was needed. Unlike species slugs, `items` list entries'
+   `name` fields ARE already in this project's own to_id() convention
+   (e.g. "lifeorb") - confirmed by direct inspection, no remapping needed.
+   The suggested item is the raw top-usage one from this Doubles ladder
+   snapshot; it is not filtered for legality under Regulation M-A - the UI
+   falls back to "(none)" itself if it isn't legal (see ui/app.py). For a
+   Mega forme species this is simply that Mega's own Stone (that ladder
+   entry's near-100%-usage item, since the forme requires it) - harmless,
+   since the UI hardcodes the Mega Stone for Mega formes independently of
+   this suggestion anyway.
+
+4. Showdown's base data/pokedex.ts (poke_calc/poke_calc/data/dump/ability_slots.json -
+   which abilities each species can actually have, used to restrict the
+   UI's Ability dropdown)
+   Source: https://github.com/smogon/pokemon-showdown (unmodified base
+   dex, NOT the champions mod - there is no champions/pokedex.ts override)
+   License: MIT (smogon/pokemon-showdown)
+
+   @smogon/calc's own species data (this project's main dex) records only
+   ONE ability per species - not a Champions mechanic, just a consequence
+   of @smogon/calc being a calculator rather than a team validator (its
+   own UI lets you type any ability regardless of species). Champions
+   itself DOES restrict ability choice to a species' normal Slot 0/1/
+   Hidden pool (confirmed: its ruleset inherits "Obtainable Abilities" via
+   data/mods/champions/rulesets.ts's `standardag` -> `Standard AG` chain),
+   so poke_calc/poke_calc/data/generate_ability_slots.py fetches pokedex.ts directly
+   for the real per-species slot data - present there even for Champions-
+   exclusive Mega formes, which live in the unmodified base dex tagged
+   `isNonstandard: "Future"` until a regulation enables them.
+
+   Cross-checking the two sources surfaced a genuine discrepancy for 2 of
+   324 species: @smogon/calc's species.json says Hawlucha-Mega's ability
+   is "Limber" and Skarmory-Mega's is "Keen Eye"; pokedex.ts (and this
+   project's own earlier, independently-sourced Mega research) says "No
+   Guard" and "Stalwart". pokedex.ts is treated as authoritative - see
+   generate_ability_slots.py's docstring and Dex.ability_slots()'s.
+
+   One ability, "Battle Bond", appears in pokedex.ts but not in
+   @smogon/calc's own 200-ability Champions table - excluded from
+   ability_slots() results since this project has no mechanical data to
+   simulate it with (same handling as "Pound" for learnsets - see #2
+   above's move-data-gap entries and generate_learnsets.py).
+
+5. Showdown's base data/text/abilities.ts (poke_calc/poke_calc/data/dump/
+   ability_descriptions.json - the human-readable description shown for
+   each ability in the UI)
+   Source: https://github.com/smogon/pokemon-showdown (unmodified base
+   dex's text tree, NOT the champions mod - there is no
+   champions/text/abilities.ts override)
+   License: MIT (smogon/pokemon-showdown)
+
+   @smogon/calc's own abilities.json dump (data/dump/abilities.json, this
+   project's main ability table) carries only id/name - no prose, since a
+   damage calculator has no mechanical need for it. Showdown's separate
+   data/text/ tree exists purely to supply this: id -> {name, shortDesc,
+   desc, ...}. poke_calc/poke_calc/data/generate_ability_descriptions.py fetches it
+   directly and keeps shortDesc (falling back to the longer desc for the
+   handful of abilities that only have that) for every id in this dex's
+   200-ability Champions table - 200/200 resolved, including the 6
+   Champions-exclusive abilities (Mega Sol, Fire Mane, Dragonize,
+   Eelevate, Piercing Drill, Spicy Spray), which Showdown's text tree
+   already carries text for despite living in the unmodified base file.
+   Ability ids there already match this project's own to_id() convention
+   directly, unlike species/sprite/Pokekipe slugs elsewhere in
+   data/generate_*.py, so no fuzzy fallback matching was needed here.
+
+6. Showdown's base data/text/moves.ts (poke_calc/poke_calc/data/dump/
+   move_descriptions.json - the full human-readable description shown for
+   each move in the UI)
+   Source: https://github.com/smogon/pokemon-showdown (unmodified base
+   dex's text tree, NOT the champions mod - there is no
+   champions/text/moves.ts override)
+   License: MIT (smogon/pokemon-showdown)
+
+   Same rationale as #5: @smogon/calc's own moves.json dump carries only
+   the mechanical fields a damage calculator needs, no prose.
+   poke_calc/poke_calc/data/generate_move_descriptions.py fetches Showdown's
+   data/text/moves.ts and keeps the longer `desc` field (falling back to
+   shortDesc only for moves that lack one) for every id in this dex's
+   513-move Champions table - 512/513 resolved; the one unresolved id is
+   "nomove", @smogon/calc's own placeholder sentinel for an empty move
+   slot, not a real move, so Showdown's text tree correctly has nothing
+   for it. Note that `desc` for a move with no secondary effect is often
+   just "No additional effect." even when its shortDesc separately calls
+   out a real mechanical property (e.g. Accelerock's priority) - a genuine
+   Showdown convention (desc = additional-effects text, not a full
+   Pokedex-style summary), not a data gap here. Move ids already match
+   this project's own to_id() convention directly, same as abilities - no
+   fuzzy fallback matching needed.
+
+7. Showdown's base data/moves.ts (poke_calc/poke_calc/data/dump/crit_ratios.json -
+   each move's own static crit ratio, used by the KO-chance solver to
+   blend crit and non-crit damage by the move's real crit probability)
+   Source: https://github.com/smogon/pokemon-showdown (unmodified base
+   dex's mechanics file, NOT the champions mod and NOT the data/text/
+   tree #6 uses - this is moves.ts, a different file with mechanical
+   fields, not prose)
+   License: MIT (smogon/pokemon-showdown)
+
+   @smogon/calc's own moves.json dump has zero `critRatio` entries -
+   confirmed by grep, no crit-chance data exists anywhere else in this
+   project. poke_calc/poke_calc/data/generate_crit_ratios.py fetches Showdown's
+   data/moves.ts directly and keeps each move's static `critRatio` field
+   (defaulting to 1, the base rate, for the 498/513 moves in this dex
+   that don't override it) - 15 moves in the Champions table have a
+   boosted ratio of 2 (e.g. Night Slash, Stone Edge, Crabhammer, Leaf
+   Blade), matching mainline's well-known "high crit ratio" move list.
+
+   Only the STATIC per-move field is captured. Showdown's moves.ts also
+   defines DYNAMIC crit-ratio boosts as onModifyCritRatio handlers - most
+   importantly Focus Energy's own move effect (+2 stages to the user's
+   later attacks) - which are deliberately NOT modeled: they need
+   cross-move battle-log state (was Focus Energy used earlier this
+   battle?) this stateless, single-hit calculator doesn't track, the same
+   category of gap as Aqua Step's dance counter or Alluring Voice's
+   "raised this turn" condition (engine/damage.py's module docstring).
+   Scope-Lens/Razor-Claw-style items and Super Luck/Sniper-style
+   abilities' crit-stage effects are similarly unmodeled for the same
+   reason. Move ids already match this project's own to_id() convention
+   directly, same as #6 - no fuzzy fallback matching needed.
