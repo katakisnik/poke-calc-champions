@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --radius: 0.9rem;
+
+  /* Pokemon Center palette: white walls, a soft healing-blue glow, red
+     used deliberately (the roof/reception desk/cross), never dominant -
+     this is a dense calculator, not a game screen, so the theming lives
+     in texture and accents rather than flat color blocks. */
+  --pc-glow: oklch(0.93 0.045 230);
+  --pc-glow-2: oklch(0.97 0.025 200);
+  --pc-red: oklch(0.6 0.22 25);
+  --pc-red-dark: oklch(0.5 0.2 25);
+  --pc-red-soft: oklch(0.62 0.22 25 / 14%);
+  --pc-blue: oklch(0.62 0.14 230);
+  --pc-blue-soft: oklch(0.62 0.14 230 / 10%);
+  --pc-dot: oklch(0.7 0.06 230 / 35%);
+
+  /* The battle HUD's "affirmative" glow - the bright yellow-green pill
+     the real game uses for a Yes/confirm action, glowing against the
+     plain outlined pill next to it. Reserved for a screen's one primary
+     action (Save/Load), not a general button color. */
+  --pc-affirm: oklch(0.85 0.22 128);
+  --pc-affirm-dark: oklch(0.72 0.2 128);
+  --pc-affirm-foreground: oklch(0.25 0.05 128);
+
+  --font-display: 'Baloo 2', 'Nunito', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+}
+
+.dark {
+  --background: oklch(0.16 0.02 250);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.21 0.025 250);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.21 0.025 250);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.28 0.025 250);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.28 0.025 250);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.28 0.025 250);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+
+  /* Same glow, tuned for a dark room instead of a bright lobby - a deep
+     navy-violet pool of light rather than the light-mode's pale blue. */
+  --pc-glow: oklch(0.3 0.07 255);
+  --pc-glow-2: oklch(0.24 0.05 260);
+  --pc-red: oklch(0.65 0.2 25);
+  --pc-red-dark: oklch(0.55 0.19 25);
+  --pc-red-soft: oklch(0.65 0.2 25 / 18%);
+  --pc-blue: oklch(0.72 0.13 230);
+  --pc-blue-soft: oklch(0.72 0.13 230 / 14%);
+  --pc-dot: oklch(0.5 0.06 250 / 45%);
+
+  --pc-affirm: oklch(0.8 0.22 128);
+  --pc-affirm-dark: oklch(0.65 0.19 128);
+  --pc-affirm-foreground: oklch(0.2 0.05 128);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-body);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    /* Two soft light pools (the "healing glow") over the base wall
+       color, plus a faint repeating dot grid for texture - the clean,
+       lightly-patterned floor/wall look real Centers have instead of a
+       flat void. */
+    background:
+      radial-gradient(ellipse 1400px 900px at 15% -10%, var(--pc-glow), transparent 55%),
+      radial-gradient(ellipse 1200px 800px at 100% 10%, var(--pc-glow-2), transparent 50%),
+      radial-gradient(var(--pc-dot) 1.5px, transparent 1.5px) 0 0 / 28px 28px,
+      var(--color-background);
+    background-attachment: fixed;
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    min-height: 100vh;
+  }
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  /* A slim colored top edge for a card - the "healing machine" accent,
+     used sparingly to color-code sections without theming the whole
+     card. Cards use flex-column layout with their own top padding, so a
+     flow pseudo-element would land 24px down rather than flush at the
+     border - absolute positioning against a relative, clipped wrapper is
+     what actually keeps it pinned to the rounded top edge. */
+  .pc-edge {
+    position: relative;
+    overflow: hidden;
+  }
+  .pc-edge::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 4px;
+    z-index: 1;
+    /* Set --pc-edge-color inline per-instance (e.g. a Pokemon's own
+       primary type color) to theme one card without a new class. */
+    background: var(--pc-edge-color, var(--pc-blue));
+  }
+  .pc-edge-red {
+    --pc-edge-color: linear-gradient(90deg, var(--pc-red), var(--pc-red-dark));
+  }
+  .pc-edge-blue {
+    --pc-edge-color: linear-gradient(90deg, var(--pc-blue), oklch(0.62 0.14 230 / 60%));
+  }
+}

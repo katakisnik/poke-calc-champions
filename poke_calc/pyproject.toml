@@ -10,8 +10,9 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest", "streamlit"]
+dev = ["pytest", "streamlit", "httpx"]
 ui = ["streamlit"]
+api = ["fastapi", "uvicorn[standard]"]
 
 [tool.setuptools.packages.find]
 include = ["poke_calc*"]
